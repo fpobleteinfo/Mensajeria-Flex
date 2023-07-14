@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+}
+
+aside{
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+}
+
+.mi-perfil {
+  display: flex;
+  border-bottom: solid 1px gainsboro;
+  padding: 5px 10px 5px 10px;
+}
+
+.mi-perfil img {
+  border-radius: 100%;
+  width: 18%;
+  padding: 10px;
+}
+
+.mis-detalles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.primero{
+  display: flex;
+}
+
+.mi-nombre {
+  margin: 0;
+  font-size: 14px;
+}
+
+.mi-estado {
+  margin: 0;
+  font-size: 13px;
+  color: #888;
+}
+
+.mi-menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.menu-iconos {
+  
+  padding: 10px;
+  color: #888;
+  opacity: 0.75;
+}
+
+.nuevo-chat {
+  display: flex;
+  padding: 3em;
+  justify-content: center;
+  border-bottom: solid 1px gainsboro;
+}
+
+.boton-chat {
+  background-color: #a491d2;
+  /* font-weight: 300; */
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  height: 45px;
+  border: none;
+}
+
+.boton-chat:hover {
+  background-color: #cdc3e6;
+}
+
+.boton-chat:focus {
+  background-color: #bec1bb;
+}
+
+.tarjeta-contacto {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 1px gainsboro;
+
+}
+
+.tarjeta-contacto img {
+  border-radius: 100%;
+  width: 17%;
+  padding: 15px;
+}
+
+.tarjeta-contacto p{
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  background-color: #e8ebe4;
+  /* border: solid 1px grey; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.content h1 {
+  font-size: 45px;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.logo-central img {
+  padding: 1em;
+  width: 40%;
+  border-radius: 10%;
+}
